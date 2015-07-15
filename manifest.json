@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Flash toggle",
+  "description": "This extension toggles the Flash plugin on/off",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "on.png"
+  },
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "permissions": [
+    "contentSettings",
+    "tabs"
+  ]
+}
